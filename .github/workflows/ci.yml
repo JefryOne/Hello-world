@@ -22,6 +22,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'maven' # Кэширование зависимостей Maven
+        maven-version: '3.9.9'
 
     # Сборка и тестирование с Maven
     - name: Build and Test
